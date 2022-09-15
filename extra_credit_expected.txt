@@ -1,0 +1,17 @@
+cmd> set 20 "a \"string\""
+
+cmd> set 30 "\\/"
+
+cmd> set 40 "new\nline"
+
+cmd> get 20
+"a "string""
+
+cmd> get 30
+"\/"
+
+cmd> get 40
+"new
+line"
+
+cmd> quit

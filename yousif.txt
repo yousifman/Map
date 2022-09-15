@@ -1,0 +1,7 @@
+set 20 "a \"string\""
+set 30 "\\/"
+set 40 "new\nline"
+get 20
+get 30
+get 40
+quit
